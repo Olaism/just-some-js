@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/snow-one.jpg');
+    background-size: cover;
+    background-position: bottom 100%;
+    background-repeat: no-repeat;
+    background-color: #ebebf4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: light;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    padding: 0.5rem;
+}
+
+.counters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.counter {
+    text-align: center;
+    background-color: #30354f;
+    padding: 0.5rem;
+}
+
+.counter-count {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.counter span {
+    color: #c9c9cd;
+}
